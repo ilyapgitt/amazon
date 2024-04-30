@@ -33,7 +33,7 @@ export const CarouselGallery = () => {
           {images.map((image, i) => (
             <div
               key={i}
-              className="flex mr-2 h-22 w-20 mr-4 bg-cover bg-center cursor-pointer hover:border-2 border-colorLink"
+              className="flex mr-2 h-22 w-20 bg-cover bg-center cursor-pointer hover:border-2 border-colorLink"
               style={{ backgroundImage: `url(${image})` }}
               onClick={() => setCurrentImage(image)}
             />
